@@ -15,8 +15,8 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
-public class WombapatientLogin
-{	 static WebDriver driver;
+public class WombapatientLogin extends ScreenshotsDemo
+{	 
 Properties obj=new Properties();
 	@When("^Enter the url for womba application and userid$")
 	public void enter_the_url_for_womba_application_and_userid() throws Throwable {
@@ -46,13 +46,15 @@ Properties obj=new Properties();
 		Thread.sleep(10000);
 		
 //String Text=driver.findElement(By.xpath("(//ul[@class=\"navbar-nav navbar-right\"]/li[1])")).getText();
-		
+		ScreenshotsDemo obj= new ScreenshotsDemo();
+		obj.tearDown();
 //		System.out.print(Text);
 //	String	substring=Text.substring(1,7);
 	String Welcome="Welcome";
 	
 	
 	}	
+	
 	
 	
 }
