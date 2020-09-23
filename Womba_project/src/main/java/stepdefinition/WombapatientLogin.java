@@ -44,6 +44,7 @@ Properties obj=new Properties();
 	@Then("^I should be login to womba application$")
 	public void i_should_be_login_to_womba_application() throws Throwable {
 		Thread.sleep(10000);
+		
 //String Text=driver.findElement(By.xpath("(//ul[@class=\"navbar-nav navbar-right\"]/li[1])")).getText();
 		
 //		System.out.print(Text);
@@ -52,5 +53,7 @@ Properties obj=new Properties();
 	
 	
 	}	
+	
+	
 }
 
