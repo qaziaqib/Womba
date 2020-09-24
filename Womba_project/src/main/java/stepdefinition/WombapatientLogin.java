@@ -51,6 +51,7 @@ Properties obj=new Properties();
 //		System.out.print(Text);
 //	String	substring=Text.substring(1,7);
 	String Welcome="Welcome";
+	driver.quit();
 	
 	
 	}	
