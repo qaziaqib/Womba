@@ -12,7 +12,7 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.*;
 import cucumber.api.testng.AbstractTestNGCucumberTests;
 @RunWith(Cucumber.class)
-@CucumberOptions(features="src/main/java/feature/WombapatientLogin.feature",tags="@test",
+@CucumberOptions(features="src/main/java/feature/WombapatientLogout.feature",tags="@gggg",
 glue= { "stepdefinition" })
 @Test
 public class TestRunner extends AbstractTestNGCucumberTests{
