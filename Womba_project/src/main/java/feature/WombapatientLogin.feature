@@ -1,3 +1,4 @@
+@test
 Feature: Login for patient
 Scenario: Login functionality with valid credentials
 
