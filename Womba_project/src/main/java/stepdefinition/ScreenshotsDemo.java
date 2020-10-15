@@ -12,7 +12,7 @@ import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
 @Test
 public class ScreenshotsDemo {
-	static WebDriver driver;
+	static  WebDriver driver;
 	public void tearDown() throws Exception {
 		String filename = getRandomString(10) + ".png";
 		String directory = System.getProperty("user.dir") + "//screenshots//";
